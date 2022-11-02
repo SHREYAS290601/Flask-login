@@ -1,0 +1,10 @@
+/__pycache__
+/flask_session
+/Include
+/Lib
+/Scripts
+/static
+/templates
+/user
+/imp.json
+/pyvenv.cfg
