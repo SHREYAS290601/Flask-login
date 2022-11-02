@@ -153,7 +153,7 @@ def forpass():
                 return ("INCORRECT EMAIL!! REGISTER FIRST")
             # msg=Message()
 
-    return (render_template('forgot_pass.html', form=form))
+    # return (render_template('forgot_pass.html', form=form))
 
 
 @app.route('/password-change',methods=['GET','POST'])
@@ -172,7 +172,7 @@ def password_change():
             flash("WRONG VERIFICATION GOODBYE!",'danger')
             # return redirect(url_for('home'))
             return ('Wrong Verification!')
-    return render_template('pass_forgot.html',form=form)
+    # return render_template('pass_forgot.html',form=form)
 
 
 if __name__ == '__main__':
